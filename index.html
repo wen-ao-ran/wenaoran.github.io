@@ -2,12 +2,35 @@
 <html>
     <head>
     </head>
-    <bodystyle="                  background-color: gray;>
+    <body>
         <h1>Hello world</h1>
         <p>Hello 大家好</p>
 <p>我是温奥冉，这是我的个人网站。 </p>
 <p>很高兴你来到这里, 你可以在下面的网站找到我</p>
+ <canvas id='canvas' width='210' height='297'></canvas>
+    <script>
+    var ctx = document.getElementById("canvas").getContext("2d");
+    	
+// #layer1
+	
+// #rect12
+	ctx.beginPath();
+	ctx.fillStyle = 'rgb(215, 238, 244)';
+	ctx.lineWidth = 0.066620;
+	ctx.rect(1.135723, 1.325610, 208.184970, 295.156740);
+	ctx.fill();
+	
+// #text16
+	ctx.fillStyle = 'rgb(0, 0, 0)';
+	ctx.font = "normal normal 10.58333333000000032px sans-serif";
+	
+// #text24
+	ctx.fillStyle = 'rgb(0, 0, 0)';
+	ctx.lineWidth = 0.070004;
+	ctx.font = "normal normal 10.5833px sans-serif";
+	ctx.fillText("A webpage", 68.791664, 57.452377);
 
+    </script>
 <ul>
   <li> <a href="https://www.bilibili.com">b站</a> </li>
 </ul>
